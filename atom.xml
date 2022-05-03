@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://cjhdwdsj.github.io</id>
+    <title>chengjh&apos;s website</title>
+    <updated>2022-05-03T02:35:30.782Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://cjhdwdsj.github.io"/>
+    <link rel="self" href="https://cjhdwdsj.github.io/atom.xml"/>
+    <subtitle>温故而知新</subtitle>
+    <logo>https://cjhdwdsj.github.io/images/avatar.png</logo>
+    <icon>https://cjhdwdsj.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, chengjh&apos;s website</rights>
+    <entry>
+        <title type="html"><![CDATA[企划]]></title>
+        <id>https://cjhdwdsj.github.io/post/wmm/</id>
+        <link href="https://cjhdwdsj.github.io/post/wmm/">
+        </link>
+        <updated>2022-05-01T01:03:06.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>这里列出了一些我（已经做完了的和）想做的事情，供备忘用</p>
+</blockquote>
+<div style="display: none">用二级标题</div>
+<h2 id="总结数学第一单元">总结数学第一单元</h2>
+<p>一直没有学懂向量and正余弦定理这个玩意儿，有一些题目无法快乐的做完，一直都没有找到靠谱的办法，感觉得分不稳</p>
+<ol>
+<li>向量的难题，错题较多</li>
+<li>认为向量和复数完全互通（例如内积和复数乘法）</li>
+<li>向量的题目不想算，不敢下手</li>
+<li>正余弦定理取值范围条件未充分理解</li>
+</ol>
+<p><strong>未完成</strong></p>
+<h2 id="总结生物有丝-减数分裂">总结生物有丝、减数分裂</h2>
+<p>生物的有丝、减数分裂是非常让人头疼的问题，容易把人搞昏。所以，我准备在暑假（可能）抽出时间整理一下。</p>
+<ol>
+<li>做个表格对比减数分裂等现象</li>
+<li>可能会画个图，直观附上</li>
+<li>生成图表，总结规律</li>
+</ol>
+<p><strong>未完成</strong></p>
+<h2 id="总结物理多星系统">总结物理多星系统</h2>
+<p>暂略</p>
+<h2 id="学习化学之后的内容">学习化学之后的内容</h2>
+<p>暂略</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数学]]></title>
+        <id>https://cjhdwdsj.github.io/post/math1/</id>
+        <link href="https://cjhdwdsj.github.io/post/math1/">
+        </link>
+        <updated>2022-02-19T01:16:06.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="数学题是真难啊">数学题是真难啊😓</h1>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>sin</mi><mo>⁡</mo><mi>B</mi><mo>=</mo><mfrac><mi>b</mi><mi>a</mi></mfrac><mi>sin</mi><mo>⁡</mo><mi>A</mi><mo>=</mo><mi>m</mi></mrow><annotation encoding="application/x-tex">\sin B=\frac{b}{a}\sin A=m
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mop">sin</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.05744em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.37144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">a</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">b</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mop">sin</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">A</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">m</span></span></span></span></span></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align:center">$ A&gt;\frac{\pi}{2} $</th>
+<th style="text-align:center">$ A=\frac{\pi}{2} $</th>
+<th style="text-align:center">$ A&lt;\frac{\pi}{2} $</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>a</mi><mo>&gt;</mo><mi>b</mi></mrow><annotation encoding="application/x-tex">a&gt;b</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mord mathdefault">a</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault">b</span></span></span></span></td>
+<td style="text-align:center">一解</td>
+<td style="text-align:center">一解</td>
+<td style="text-align:center">一解</td>
+</tr>
+<tr>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>a</mi><mo>=</mo><mi>b</mi></mrow><annotation encoding="application/x-tex">a=b</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">a</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault">b</span></span></span></span></td>
+<td style="text-align:center">无解</td>
+<td style="text-align:center">无解</td>
+<td style="text-align:center">一解</td>
+</tr>
+<tr>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>a</mi><mo>&lt;</mo><mi>b</mi></mrow><annotation encoding="application/x-tex">a&lt;b</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mord mathdefault">a</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault">b</span></span></span></span></td>
+<td style="text-align:center">无解</td>
+<td style="text-align:center">无解</td>
+<td style="text-align:center">见下</td>
+</tr>
+</tbody>
+</table>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo fence="true">{</mo><mtable><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mi>a</mi><mo>&gt;</mo><mi>b</mi><mi>sin</mi><mo>⁡</mo><mi>A</mi></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mtext>两解</mtext></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mi>a</mi><mo>=</mo><mi>b</mi><mi>sin</mi><mo>⁡</mo><mi>A</mi></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mtext>一解</mtext></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mi>a</mi><mo>&lt;</mo><mi>b</mi><mi>sin</mi><mo>⁡</mo><mi>A</mi></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mtext>无解</mtext></mstyle></mtd></mtr></mtable></mrow><annotation encoding="application/x-tex">\begin{cases} a&gt;b\sin A &amp;\text{两解}\\ a=b\sin A &amp;\text{一解}\\ a&lt;b\sin A &amp;\text{无解}\end{cases}
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:4.32em;vertical-align:-1.9099999999999997em;"></span><span class="minner"><span class="mopen"><span class="delimsizing mult"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.35002em;"><span style="top:-2.19999em;"><span class="pstrut" style="height:3.15em;"></span><span class="delimsizinginner delim-size4"><span>⎩</span></span></span><span style="top:-2.19999em;"><span class="pstrut" style="height:3.15em;"></span><span class="delimsizinginner delim-size4"><span>⎪</span></span></span><span style="top:-3.1500100000000004em;"><span class="pstrut" style="height:3.15em;"></span><span class="delimsizinginner delim-size4"><span>⎨</span></span></span><span style="top:-4.30001em;"><span class="pstrut" style="height:3.15em;"></span><span class="delimsizinginner delim-size4"><span>⎪</span></span></span><span style="top:-4.60002em;"><span class="pstrut" style="height:3.15em;"></span><span class="delimsizinginner delim-size4"><span>⎧</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.8500199999999998em;"><span></span></span></span></span></span></span><span class="mord"><span class="mtable"><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.41em;"><span style="top:-4.41em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mord mathdefault">a</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord mathdefault">b</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mop">sin</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">A</span></span></span><span style="top:-2.97em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mord mathdefault">a</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord mathdefault">b</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mop">sin</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">A</span></span></span><span style="top:-1.5300000000000002em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mord mathdefault">a</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord mathdefault">b</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mop">sin</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">A</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.9099999999999997em;"><span></span></span></span></span></span><span class="arraycolsep" style="width:1em;"></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.41em;"><span style="top:-4.41em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mord text"><span class="mord cjk_fallback">两解</span></span></span></span><span style="top:-2.97em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mord text"><span class="mord cjk_fallback">一解</span></span></span></span><span style="top:-1.5300000000000002em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mord text"><span class="mord cjk_fallback">无解</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.9099999999999997em;"><span></span></span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
+<p>手打公式有<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mo><mtext>一</mtext></mo><mtext>亿</mtext></msup></mrow><annotation encoding="application/x-tex">\overset{\text 亿}{\text 一}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.4616609999999999em;vertical-align:0em;"></span><span class="mord"><span class="mop op-limits"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:1.4616609999999999em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span><span class="mop"><span class="mord text"><span class="mord cjk_fallback">一</span></span></span></span></span><span style="top:-3.88333em;margin-left:0em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord cjk_fallback mtight">亿</span></span></span></span></span></span></span></span></span></span></span></span></span>点的累😅 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mstyle mathcolor="white"><mrow><mi mathvariant="normal">，</mi><mi mathvariant="normal">比</mi><mi mathvariant="normal">做</mi><mi mathvariant="normal">数</mi><mi mathvariant="normal">学</mi><mi mathvariant="normal">题</mi><mi mathvariant="normal">有</mi><mi mathvariant="normal">趣</mi><mi mathvariant="normal">多</mi><mi mathvariant="normal">了</mi></mrow></mstyle></mrow><annotation encoding="application/x-tex">\color{white}{，比做数学题有趣多了}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0em;vertical-align:0em;"></span><span class="mord" style="color:white;"><span class="mord cjk_fallback" style="color:white;">，</span><span class="mord cjk_fallback" style="color:white;">比</span><span class="mord cjk_fallback" style="color:white;">做</span><span class="mord cjk_fallback" style="color:white;">数</span><span class="mord cjk_fallback" style="color:white;">学</span><span class="mord cjk_fallback" style="color:white;">题</span><span class="mord cjk_fallback" style="color:white;">有</span><span class="mord cjk_fallback" style="color:white;">趣</span><span class="mord cjk_fallback" style="color:white;">多</span><span class="mord cjk_fallback" style="color:white;">了</span></span></span></span></span></p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mo>∭</mo><msubsup><mo>∭</mo><msubsup><mo>∭</mo><msubsup><mo>∭</mo><msup><mo>∭</mo><msup><mo>∭</mo><msup><mo>∭</mo><msup><mo>∭</mo><msup><mo>∭</mo><mo>∭</mo></msup></msup></msup></msup></msup><msup><mo>∭</mo><msup><mo>∭</mo><msup><mo>∭</mo><msup><mo>∭</mo><mo>∭</mo></msup></msup></msup></msup></msubsup><msubsup><mo>∭</mo><msup><mo>∭</mo><msup><mo>∭</mo><msup><mo>∭</mo><msup><mo>∭</mo><msup><mo>∭</mo><mo>∭</mo></msup></msup></msup></msup></msup><msup><mo>∭</mo><msubsup><mo>∭</mo><msup><mo>∭</mo><msup><mo>∭</mo><msup><mo>∭</mo><msup><mo>∭</mo><msup><mo>∭</mo><mo>∭</mo></msup></msup></msup></msup></msup><msup><mo>∭</mo><mo>∭</mo></msup></msubsup></msup></msubsup></msubsup><msubsup><mo>∭</mo><msubsup><mo>∭</mo><msup><mo>∭</mo><msup><mo>∭</mo><msup><mo>∭</mo><msup><mo>∭</mo><msup><mo>∭</mo><mo>∭</mo></msup></msup></msup></msup></msup><msup><mo>∭</mo><msup><mo>∭</mo><msup><mo>∭</mo><msup><mo>∭</mo><mo>∭</mo></msup></msup></msup></msup></msubsup><msubsup><mo>∭</mo><msup><mo>∭</mo><msup><mo>∭</mo><msup><mo>∭</mo><msup><mo>∭</mo><msup><mo>∭</mo><mo>∭</mo></msup></msup></msup></msup></msup><msup><mo>∭</mo><msup><mo>∭</mo><mo>∭</mo></msup></msup></msubsup></msubsup></msubsup><msup><mo>∭</mo><msup><mo>∭</mo><msup><mo>∭</mo><msup><mo>∭</mo><msup><mo>∭</mo><mo>∭</mo></msup></msup></msup></msup></msup></msubsup></mrow><annotation encoding="application/x-tex">\iiint _{\iiint_{\iiint _{\iiint _{\iiint ^ {\iiint^ {\iiint^ {\iiint^ {\iiint^ {\iiint}}}}}}^ {\iiint^ {\iiint^ {\iiint^ {\iiint^ {\iiint}}}}}}^ {\iiint_{\iiint ^ {\iiint^ {\iiint^ {\iiint^ {\iiint^ {\iiint}}}}}}^ {\iiint^ {\iiint_{\iiint ^ {\iiint^ {\iiint^ {\iiint^ {\iiint^ {\iiint}}}}}}^ {\iiint^ {\iiint}}}}}} ^ {\iiint_{\iiint _{\iiint ^ {\iiint^ {\iiint^ {\iiint^ {\iiint^ {\iiint}}}}}}^ {\iiint^ {\iiint^ {\iiint^ {\iiint^ {\iiint}}}}}}^ {\iiint_{\iiint ^ {\iiint^ {\iiint^ {\iiint^ {\iiint^ {\iiint}}}}}}^ {\iiint^ {\iiint^ {\iiint}}}}}}^ {\iiint^ {\iiint^ {\iiint^ {\iiint^ {\iiint^ {\iiint}}}}}}
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:15.397774999999998em;vertical-align:-12.738374999999998em;"></span><span class="mop"><span class="mop op-symbol large-op" style="margin-right:0.44445em;position:relative;top:-0.0009999999999999454em;">∭</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.6593999999999998em;"><span style="top:-2.7387000000000024em;margin-left:-0.44445em;margin-right:0.05em;"><span class="pstrut" style="height:8.06736em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:8.667657142857143em;"><span style="top:-2.1487999999999996em;margin-left:-0.19445em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:8.45342857142857em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:9.0348em;"><span style="top:-4.697050000000001em;margin-left:-0.19445em;margin-right:0.1em;"><span class="pstrut" style="height:7.659050000000001em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:3.1108em;"><span style="top:-2.1488em;margin-left:-0.19445em;margin-right:0.1em;"><span class="pstrut" style="height:4.87375em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:2.8737500000000002em;"><span style="top:-4.87375em;margin-right:0.1em;"><span class="pstrut" style="height:4.46em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:2.46em;"><span style="top:-4.460000000000001em;margin-right:0.1em;"><span class="pstrut" style="height:4.046250000000001em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:2.04625em;"><span style="top:-4.046250000000001em;margin-right:0.1em;"><span class="pstrut" style="height:3.6325000000000003em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:1.6325em;"><span style="top:-3.6325000000000003em;margin-right:0.1em;"><span class="pstrut" style="height:3.21875em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:1.21875em;"><span style="top:-3.21875em;margin-right:0.1em;"><span class="pstrut" style="height:2.805em;"></span><span class="mord mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span style="top:-5.5245500000000005em;margin-right:0.1em;"><span class="pstrut" style="height:4.87375em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:2.46em;"><span style="top:-4.460000000000001em;margin-right:0.1em;"><span class="pstrut" style="height:4.046250000000001em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:2.04625em;"><span style="top:-4.046250000000001em;margin-right:0.1em;"><span class="pstrut" style="height:3.6325000000000003em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:1.6325em;"><span style="top:-3.6325000000000003em;margin-right:0.1em;"><span class="pstrut" style="height:3.21875em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:1.21875em;"><span style="top:-3.21875em;margin-right:0.1em;"><span class="pstrut" style="height:2.805em;"></span><span class="mord mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:3.0309500000000003em;"><span></span></span></span></span></span></span></span></span><span style="top:-11.0348em;margin-right:0.1em;"><span class="pstrut" style="height:7.659050000000001em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:5.659050000000001em;"><span style="top:-4.2833em;margin-left:-0.19445em;margin-right:0.1em;"><span class="pstrut" style="height:7.00825em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:2.8737500000000002em;"><span style="top:-4.87375em;margin-right:0.1em;"><span class="pstrut" style="height:4.46em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:2.46em;"><span style="top:-4.460000000000001em;margin-right:0.1em;"><span class="pstrut" style="height:4.046250000000001em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:2.04625em;"><span style="top:-4.046250000000001em;margin-right:0.1em;"><span class="pstrut" style="height:3.6325000000000003em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:1.6325em;"><span style="top:-3.6325000000000003em;margin-right:0.1em;"><span class="pstrut" style="height:3.21875em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:1.21875em;"><span style="top:-3.21875em;margin-right:0.1em;"><span class="pstrut" style="height:2.805em;"></span><span class="mord mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span style="top:-7.65905em;margin-right:0.1em;"><span class="pstrut" style="height:7.00825em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:5.00825em;"><span style="top:-7.00825em;margin-right:0.1em;"><span class="pstrut" style="height:3.86955em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.8695499999999998em;"><span style="top:-2.1488em;margin-left:-0.19445em;margin-right:0.1em;"><span class="pstrut" style="height:4.87375em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:2.8737500000000002em;"><span style="top:-4.87375em;margin-right:0.1em;"><span class="pstrut" style="height:4.46em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:2.46em;"><span style="top:-4.460000000000001em;margin-right:0.1em;"><span class="pstrut" style="height:4.046250000000001em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:2.04625em;"><span style="top:-4.046250000000001em;margin-right:0.1em;"><span class="pstrut" style="height:3.6325000000000003em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:1.6325em;"><span style="top:-3.6325000000000003em;margin-right:0.1em;"><span class="pstrut" style="height:3.21875em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:1.21875em;"><span style="top:-3.21875em;margin-right:0.1em;"><span class="pstrut" style="height:2.805em;"></span><span class="mord mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span style="top:-5.5245500000000005em;margin-right:0.1em;"><span class="pstrut" style="height:4.87375em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:1.21875em;"><span style="top:-3.21875em;margin-right:0.1em;"><span class="pstrut" style="height:2.805em;"></span><span class="mord mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:3.0309500000000003em;"><span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:3.0309500000000003em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:5.99295em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-13.078907142857144em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:8.45342857142857em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:5.659049999999999em;"><span style="top:-2.148799999999999em;margin-left:-0.19445em;margin-right:0.1em;"><span class="pstrut" style="height:5.110799999999999em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:3.1108em;"><span style="top:-2.1488em;margin-left:-0.19445em;margin-right:0.1em;"><span class="pstrut" style="height:4.87375em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:2.8737500000000002em;"><span style="top:-4.87375em;margin-right:0.1em;"><span class="pstrut" style="height:4.46em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:2.46em;"><span style="top:-4.460000000000001em;margin-right:0.1em;"><span class="pstrut" style="height:4.046250000000001em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:2.04625em;"><span style="top:-4.046250000000001em;margin-right:0.1em;"><span class="pstrut" style="height:3.6325000000000003em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:1.6325em;"><span style="top:-3.6325000000000003em;margin-right:0.1em;"><span class="pstrut" style="height:3.21875em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:1.21875em;"><span style="top:-3.21875em;margin-right:0.1em;"><span class="pstrut" style="height:2.805em;"></span><span class="mord mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span style="top:-5.5245500000000005em;margin-right:0.1em;"><span class="pstrut" style="height:4.87375em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:2.46em;"><span style="top:-4.460000000000001em;margin-right:0.1em;"><span class="pstrut" style="height:4.046250000000001em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:2.04625em;"><span style="top:-4.046250000000001em;margin-right:0.1em;"><span class="pstrut" style="height:3.6325000000000003em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:1.6325em;"><span style="top:-3.6325000000000003em;margin-right:0.1em;"><span class="pstrut" style="height:3.21875em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:1.21875em;"><span style="top:-3.21875em;margin-right:0.1em;"><span class="pstrut" style="height:2.805em;"></span><span class="mord mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:3.0309500000000003em;"><span></span></span></span></span></span></span></span></span><span style="top:-8.48655em;margin-right:0.1em;"><span class="pstrut" style="height:5.110799999999999em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.2832999999999997em;"><span style="top:-2.1488em;margin-left:-0.19445em;margin-right:0.1em;"><span class="pstrut" style="height:4.87375em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:2.8737500000000002em;"><span style="top:-4.87375em;margin-right:0.1em;"><span class="pstrut" style="height:4.46em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:2.46em;"><span style="top:-4.460000000000001em;margin-right:0.1em;"><span class="pstrut" style="height:4.046250000000001em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:2.04625em;"><span style="top:-4.046250000000001em;margin-right:0.1em;"><span class="pstrut" style="height:3.6325000000000003em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:1.6325em;"><span style="top:-3.6325000000000003em;margin-right:0.1em;"><span class="pstrut" style="height:3.21875em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:1.21875em;"><span style="top:-3.21875em;margin-right:0.1em;"><span class="pstrut" style="height:2.805em;"></span><span class="mord mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span style="top:-5.5245500000000005em;margin-right:0.1em;"><span class="pstrut" style="height:4.87375em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:1.6325em;"><span style="top:-3.6325000000000003em;margin-right:0.1em;"><span class="pstrut" style="height:3.21875em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:1.21875em;"><span style="top:-3.21875em;margin-right:0.1em;"><span class="pstrut" style="height:2.805em;"></span><span class="mord mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:3.0309500000000003em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:5.99295em;"><span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:10.585307142857143em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-9.18026em;margin-right:0.05em;"><span class="pstrut" style="height:8.06736em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:2.2092857142857145em;"><span style="top:-4.2092857142857145em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:3.757142857142857em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:2.46em;"><span style="top:-4.460000000000001em;margin-right:0.1em;"><span class="pstrut" style="height:4.046250000000001em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:2.04625em;"><span style="top:-4.046250000000001em;margin-right:0.1em;"><span class="pstrut" style="height:3.6325000000000003em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:1.6325em;"><span style="top:-3.6325000000000003em;margin-right:0.1em;"><span class="pstrut" style="height:3.21875em;"></span><span class="mord mtight"><span class="mop mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:1.21875em;"><span style="top:-3.21875em;margin-right:0.1em;"><span class="pstrut" style="height:2.805em;"></span><span class="mord mtight"><span class="mop op-symbol small-op mtight" style="margin-right:0.19445em;position:relative;top:-0.0004999999999999727em;">∭</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:12.738374999999998em;"><span></span></span></span></span></span></span></span></span></span></span></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LX Music]]></title>
+        <id>https://cjhdwdsj.github.io/post/LX-Music/</id>
+        <link href="https://cjhdwdsj.github.io/post/LX-Music/">
+        </link>
+        <updated>2022-02-12T06:20:49.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="lx-music免费听全网会员音乐">LX Music：免费听全网会员音乐</h3>
+<figure data-type="image" tabindex="1"><img src="https://cjhdwdsj.github.io/post-images/1651504484517.png" alt="非常良心" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://cjhdwdsj.github.io/post-images/1651504462015.png" alt="良心" loading="lazy"></figure>
+<h5 id="首先它支持非常多的音乐平台">首先，它支持非常多的音乐平台</h5>
+<figure data-type="image" tabindex="3"><img src="https://cjhdwdsj.github.io/post-images/1651504433678.png" alt="音乐平台" loading="lazy"></figure>
+<p>​	举个例子</p>
+<figure data-type="image" tabindex="4"><img src="https://cjhdwdsj.github.io/post-images/1651504524809.png" alt="" loading="lazy"></figure>
+<h5 id="可以直接下载音乐">可以直接下载音乐<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></h5>
+<p>​	速度比较快，还可以连带歌词下载</p>
+<h5 id="可以收藏歌单">可以收藏歌单<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup></h5>
+<p>​	可以输入你歌单的id号</p>
+<h5 id="可以开启桌面歌词">可以开启桌面歌词<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup></h5>
+<p>​	自定义程度还可以</p>
+<hr>
+<h4 id="最重要的是它是开源的可以自定义修改播放器的样式">最重要的是，它是开源的，可以自定义<s>修改</s>播放器的样式</h4>
+<p>就我而言，我觉得直接用它没有广告，而且绝对不缺歌曲，这就足够了。</p>
+<hr>
+<p>官方链接：<a href="https://www.lanzoui.com/b0bf2cfa/">glqw</a></p>
+<div style="display: none">end.</div>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>目前只有128K,安卓端暂不支持 <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>但是不能搜索歌单 <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p>比大厂稍微差一点 <a href="#fnref3" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[再见卡西尼号 你好土星]]></title>
+        <id>https://cjhdwdsj.github.io/post/Cassini/</id>
+        <link href="https://cjhdwdsj.github.io/post/Cassini/">
+        </link>
+        <updated>2022-02-11T10:43:43.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="cassini">Cassini</h1>
+<p><a href="https://www.bilibili.com/bangumi/play/ss27121" title="卡西尼号">链接</a></p>
+<ul>
+<li>introduce
+<ul>
+<li>A billion miles form earth</li>
+<li>13 years orbiting(around) Saturn(TU X ING)</li>
+<li>Friday the 15TH of September</li>
+<li>size:a bus</li>
+<li>with 12 delicate instruments</li>
+<li>7 years way Saturn</li>
+<li>Earth - Venus - Venus again - Earth again - Jupiter - Saturn</li>
+</ul>
+</li>
+<li>worker
+<ul>
+<li>Carolyn -- the camera system</li>
+<li>Julie Webster -- control far away</li>
+</ul>
+</li>
+<li>Saturn
+<ul>
+<li>ring - ice debris - so magnificently regular and beautiful</li>
+<li>Carl Murray -- rings and moons</li>
+</ul>
+</li>
+<li>62 moons
+<ul>
+<li>Iapetus(moon 8)
+<ul>
+<li>two toned(side) moon
+<ul>
+<li>half as dark as dark get</li>
+<li>the other half is bright as snow</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Hyperion(moon 7)
+<ul>
+<li>like a sponge(Ha i M i a n)</li>
+</ul>
+</li>
+<li>Mimas(moon 1)
+<ul>
+<li>Death Star moon</li>
+</ul>
+</li>
+<li>Titan(moon 6)
+<ul>
+<li>far:an orange,foggy blob(X i n g Q i u)</li>
+<li>But it appears through the fog and an astonishing world is revealed,a world that surprised everyone.</li>
+<li>&quot;Release the probe&quot;</li>
+<li>Huygens -- a descent module
+<ul>
+<li>pebbles on the ground,round rocks</li>
+<li>channels carved through the hills</li>
+<li>surface</li>
+<li>enormous dune fields,100 m high,go on hundreds of kilometer
+<ul>
+<li>doesn't blow in the prevailing wind</li>
+<li>the dunes seems to be resistant to all but very strongest of storms</li>
+<li>the sand comes from Titan's exotic atmosphere,it may can easily build up a charge of static electricity which makes it sticky</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>went by Titan over 125 times</li>
+<li>uses the mock-up to anticipate every eventuality - already run 10000 simulations</li>
+<li>Kraken Mare(liquid methane)
+<ul>
+<li>so cold</li>
+<li>sky would be kind of a deep orange</li>
+<li>the first alien sea ever discovered</li>
+<li>5 year after ... Cassini's instruments spotted something shining through the haze</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Enceladus(moon 2)
+<ul>
+<li>a little pimple in the magnetic data</li>
+<li>water group ions may exist</li>
+<li>find fractures which Nicknamed is the tiger stripes
+<ul>
+<li>radiating heat</li>
+<li>spewing water vapour and ice particles</li>
+</ul>
+</li>
+<li>the three ingredients essential for the emergence of life is include - could harbour life</li>
+<li>it may tell us that life is everywhere</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>close to &quot;death&quot;
+<ul>
+<li>don't want it crash on the surface of Enceladus(moon 2)</li>
+<li>Grand Finale</li>
+<li>use the last drops of fuel close to Saturn</li>
+<li>THE BEGINNING OF THE END</li>
+<li>nerves and exciting</li>
+<li>send the spacecraft exploring closer to Saturn</li>
+<li>dive between the rings and the planet and plunge into Saturn's atmosphere</li>
+<li>It goes from 200 to 2000 degrees in just a matter of seconds</li>
+<li>And...then everything will start to melt and disintegrate</li>
+<li>And then it'll go away</li>
+<li>It just will lose the signal and that'll be end of mission</li>
+<li>Cassini's going to be getting and transmitting data to its last breath</li>
+<li>upset</li>
+<li>4:55 and 46 seconds,on Friday the 15TH of September,the signal disappeared.</li>
+<li>Our friend...Cassini.</li>
+</ul>
+</li>
+</ul>
+<h4 id="中文翻译gelugelu-translate"><sub>中文翻译</sub>(gelugelu translate)</h4>
+<ul>
+<li>介绍
+<ul>
+<li>十亿英里形成地球</li>
+<li>13 年绕（环绕）土星（TU X ING）</li>
+<li>9 月 15 日星期五</li>
+<li>大小：一辆公共汽车</li>
+<li>带有 12 种精致的乐器</li>
+<li>7 年的方式土星</li>
+<li>地球 - 金星 - 再次金星 - 再次地球 - 木星 - 土星</li>
+</ul>
+</li>
+<li>工人
+<ul>
+<li>Carolyn——摄像系统</li>
+<li>——朱莉·韦伯斯特——远控</li>
+</ul>
+</li>
+<li>土星
+<ul>
+<li>环 - 冰屑 - 非常规则和美丽</li>
+<li>——卡尔·默里——戒指和月亮</li>
+</ul>
+</li>
+<li>62 个卫星
+<ul>
+<li>土卫八（月亮 8）
+<ul>
+<li>两个色调（侧面）的月亮
+<ul>
+<li>黑暗的一半</li>
+<li>另一半像雪一样明亮</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>海波龙（月亮 7）
+<ul>
+<li>像海绵一样（Ha i M i an n）</li>
+</ul>
+</li>
+<li>土卫一（月亮 1）
+<ul>
+<li>死星月亮</li>
+</ul>
+</li>
+<li>泰坦（月亮 6）
+<ul>
+<li>far:an orange,foggy blob(X i n g Q i u)</li>
+<li>但它穿过迷雾出现，一个惊人的世界出现了，一个让所有人都感到惊讶的世界。</li>
+<li>“释放探针”</li>
+<li>惠更斯——下降模块
+<ul>
+<li>地面上的鹅卵石，圆形岩石</li>
+<li>穿过山丘的通道</li>
+<li>表面</li>
+<li>巨大的沙丘，100 m 高，绵延数百公里
+<ul>
+<li>不会在盛行风中吹</li>
+<li>沙丘似乎可以抵抗除最强风暴之外的所有风暴</li>
+<li>沙子来自泰坦奇特的大气层，很容易积聚静电而变得粘稠</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>经过泰坦超过 125 次</li>
+<li>使用模型预测每一种可能性 - 已经运行了 10000 次模拟</li>
+<li>Kraken Mare（液态甲烷）
+<ul>
+<li>好冷</li>
+<li>天空会是一种深橙色</li>
+<li>首次发现的外星海洋</li>
+<li>5 年后... 卡西尼号的仪器在雾霭中发现了一些闪光的东西</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>土卫二（月亮 2）
+<ul>
+<li>磁性数据中的一个小疙瘩</li>
+<li>可能存在水基离子</li>
+<li>找到昵称是老虎条纹的骨折
+<ul>
+<li>散热</li>
+<li>喷出水蒸气和冰粒</li>
+</ul>
+</li>
+<li>生命出现的三个要素包括 - 可以孕育生命</li>
+<li>它可能告诉我们生命无处不在</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>接近“死亡”
+<ul>
+<li>不希望它在土卫二的表面坠毁（月亮 2）</li>
+<li>总决赛</li>
+<li>使用靠近土星的最后一滴燃料</li>
+<li>结局的开始</li>
+<li>紧张刺激</li>
+<li>让宇宙飞船探索更接近土星</li>
+<li>在环和行星之间潜入土星大气层</li>
+<li>只需几秒钟即可从 200 度升至 2000 度</li>
+<li>然后……然后一切都会开始融化和瓦解</li>
+<li>然后它就会消失</li>
+<li>它只会失去信号，这将是任务的结束</li>
+<li>卡西尼号将在最后一口气获取和传输数据</li>
+<li>沮丧的</li>
+<li>9 月 15 日星期五 4 点 55 分 46 秒，信号消失。</li>
+<li>我们的朋友……卡西尼。</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    </entry>
+</feed>
