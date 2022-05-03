@@ -8,9 +8,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://cjhdwdsj.github.io/favicon.ico?v=1651545324318">
+<link rel="shortcut icon" href="https://cjhdwdsj.github.io/favicon.ico?v=1651548675872">
 <link rel="stylesheet" href="https://cjhdwdsj.github.io/styles/main.css">
 
+
+  
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/disqusjs@1.1/dist/disqusjs.css" />
+  
 
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -37,7 +43,7 @@ $ A&lt..." />
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://cjhdwdsj.github.io">
-        <img src="https://cjhdwdsj.github.io/images/avatar.png?v=1651545324318" class="site-logo">
+        <img src="https://cjhdwdsj.github.io/images/avatar.png?v=1651548675872" class="site-logo">
         <h1 class="site-title">chengjh&#39;s website</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -164,6 +170,12 @@ $ A&lt..." />
             
 
             
+              
+
+              
+                <div id="disqus_thread" data-aos="fade-in"></div>
+              
+            
 
           </div>
 
@@ -186,6 +198,26 @@ var app = new Vue({
 </script>
 
 
+
+
+
+  
+
+  
+    <script src="https://unpkg.com/disqusjs@1.1/dist/disqus.js"></script>
+    <script>
+
+    var options = {
+      shortname: 'chengjh',
+      apikey: 'VE3l2ynNs0fWVAsC30Tf5odsYKGP54ThkzCriheiEUaD23c22ZP5uZYFr7XTOHLF',
+    }
+    if ('disqus.skk.moe/disqus') {
+      options.api = 'disqus.skk.moe/disqus'
+    }
+    var dsqjs = new DisqusJS(options)
+
+    </script>
+  
 
 
 
