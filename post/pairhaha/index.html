@@ -8,7 +8,7 @@
 <meta name="keywords" content="静态个人博客">
 <meta name="description" content="温故而知新">
 <meta name="theme-color" content="#000">
-<title>再见卡西尼号 你好土星 | chengjh&#39;s website</title>
+<title>C++的局限性（划掉） | chengjh&#39;s website</title>
 <link rel="shortcut icon" href="/favicon.ico?v=1728266774744">
 <link rel="stylesheet" href="/styles/main.css">
 <link rel="stylesheet" href="/media/css/pisces.css">
@@ -29,8 +29,8 @@
 
 
 
-  <meta name="description" content="再见卡西尼号 你好土星" />
-  <meta name="keywords" content="视频" />
+  <meta name="description" content="C++的局限性（划掉）" />
+  <meta name="keywords" content="随笔,学习" />
 </head>
 
 <body>
@@ -144,203 +144,6 @@
 
 <div class="sidebar">
   
-    <div class="sidebar-box box-shadow-wrapper bg-color right-motion" id="sidebar">
-      
-      <div class="sidebar-body pisces" id="sidebar_body">
-        
-          
-            <div style="opacity: 1;">
-              <div class="toc-box right-motion">
-  <div class="toc-wrapper auto-number auto"
-    id="toc_wrapper">
-    <ul class="markdownIt-TOC">
-<li><a href="#cassini">Cassini</a><br>
-*<br>
-*<br>
-* <a href="#%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AF%91gelugelu-translate">~中文翻译~(gelugelu translate)</a></li>
-</ul>
-
-  </div>
-</div>
-
-<script>
-
-  let lastTop = 0, lList = [], hList = [], postBody, lastIndex = -1;
-  let active = 'active-show', activeClass = 'active-current';
-  let tocWrapper = document.querySelector('#toc_wrapper');
-  let tocContent = tocWrapper.children[0];
-  let autoNumber = tocWrapper && tocWrapper.classList.contains('auto-number');
-
-  function addTocNumber(elem, deep) {
-    if (!elem) {
-      return;
-    }
-    let prop = elem.__proto__;
-
-    if (prop === HTMLUListElement.prototype) {
-      for (let i = 0; i < elem.children.length; i++) {
-        addTocNumber(elem.children[i], deep + (i + 1) + '.');
-      }
-    } else if (prop === HTMLLIElement.prototype) {
-      // 保存li元素
-      if (elem.children[0].__proto__ === HTMLAnchorElement.prototype) {
-        lList.push(elem);
-      }
-      for (let i = 0; i < elem.children.length; i++) {
-        let cur = elem.children[i];
-        if (cur.__proto__ === HTMLAnchorElement.prototype) {
-          if (autoNumber) {
-            cur.text = deep + ' ' + cur.text;
-          }
-        } else if (cur.__proto__ === HTMLUListElement.prototype) {
-          addTocNumber(cur, deep);
-        }
-      }
-    }
-  }
-
-  function removeParentActiveClass() {
-    let parents = tocContent.querySelectorAll('.' + active)
-    parents.forEach(function (elem) {
-      elem.classList.remove(active);
-    });
-  }
-
-  function addActiveClass(index) {
-    if (index >= 0 && index < hList.length) {
-      lList[index].classList.add(activeClass);
-    }
-  }
-
-  function removeActiveClass(index) {
-    if (index >= 0 && index < hList.length) {
-      lList[index].classList.remove(activeClass);
-    }
-  }
-
-  function addActiveLiElemment(elem, parent) {
-    if (!elem || elem === parent) {
-      return;
-    } else {
-      if (elem.__proto__ === HTMLLIElement.prototype) {
-        elem.classList.add(active);
-      }
-      addActiveLiElemment(elem.parentElement, parent);
-    }
-  }
-
-  function showToc() {
-    if (tocWrapper) {
-      postBody = document.querySelector('#post_body');
-      for (let i = 0; i < postBody.children.length; i++) {
-        if (postBody.children[i].__proto__ === HTMLHeadingElement.prototype) {
-          hList.push(postBody.children[i]);
-        }
-      }
-      if (tocWrapper.classList.contains('compress')) {
-        tocContent.classList.add('closed');
-      } else if (tocWrapper.classList.contains('no_compress')) {
-        tocContent.classList.add('expanded');
-      } else {
-        if (hList.length > 10) {
-          active = 'active-hidden'
-          tocContent.classList.add('closed');
-        } else {
-          tocContent.classList.add('expanded');
-        }
-      }
-    }
-  }
-
-  (function () {
-    // 处理不是从#一级标题开始目录
-    if (tocContent.children.length === 1 && tocContent.children[0].__proto__ === HTMLLIElement.prototype) {
-      let con = tocContent.children[0].children[0];
-      tocContent.innerHTML = con.innerHTML;
-    }
-    let markdownItTOC = document.querySelector('.markdownIt-TOC');
-    let innerHeight = window.innerHeight;
-    markdownItTOC.style = `max-height: ${innerHeight - 80 > 0 ? innerHeight - 80 : innerHeight}px`
-    addTocNumber(tocContent, '');
-  })();
-
-  document.addEventListener('scroll', function (e) {
-    if (lList.length <= 0) {
-      return;
-    }
-    let scrollTop = document.scrollingElement.scrollTop + 10;
-    let dir;
-
-    if (lastTop - scrollTop > 0) {
-      dir = 'up';
-    } else {
-      dir = 'down';
-    }
-
-    lastTop = scrollTop;
-    if (scrollTop <= 0) {
-      if (lastIndex >= 0 && lastIndex < hList.length) {
-        lList[lastIndex].classList.remove(activeClass);
-      }
-      return;
-    }
-
-    let current = 0, hasFind = false;
-    for (let i = 0; i < hList.length; i++) {
-      if (hList[i].offsetTop > scrollTop) {
-        current = i;
-        hasFind = true;
-        break;
-      }
-    }
-    if (!hasFind && scrollTop > lList[lList.length - 1].offsetTop) {
-      current = hList.length - 1;
-    } else {
-      current--;
-    }
-    if (dir === 'down') {
-      if (current > lastIndex) {
-        addActiveClass(current);
-        removeActiveClass(lastIndex)
-        lastIndex = current;
-        removeParentActiveClass();
-        lList[current] && addActiveLiElemment(lList[current].parentElement, tocContent);
-      }
-    } else {
-      if (current < lastIndex) {
-        addActiveClass(current);
-        removeActiveClass(lastIndex);
-        lastIndex = current;
-        removeParentActiveClass();
-        lList[current] && addActiveLiElemment(lList[current].parentElement, tocContent);
-      }
-    }
-  });
-
-
-  window.addEventListener('load', function () {
-    showToc();
-    document.querySelector('#sidebar').style = 'display: block;';
-    tocWrapper.classList.add('toc-active');
-    setTimeout(function () {
-      if ("createEvent" in document) {
-        let evt = document.createEvent("HTMLEvents");
-        evt.initEvent("scroll", false, true);
-        document.dispatchEvent(evt);
-      }
-      else {
-        document.fireEvent("scroll");
-      }
-    }, 500)
-  })
-
-</script>
-            </div>
-          
-        
-      </div>
-    </div>
-  
 </div>
 <script>
   const SIDEBAR_TITLE_ACTIVE = 'sidebar-title-active';
@@ -423,8 +226,8 @@
           <div class="section bg-color post post-page">
             <header class="post-header">
   <h1 class="post-title">
-    <a class="post-title-link" href="https://cjhdwdsj.github.io/post/Cassini/">
-      再见卡西尼号 你好土星
+    <a class="post-title-link" href="https://cjhdwdsj.github.io/post/pairhaha/">
+      C++的局限性（划掉）
     </a>
   </h1>
   <div class="post-meta">
@@ -432,7 +235,7 @@
     <span class="meta-item pc-show">
       <i class="fa fa-calendar-o"></i>
       <span>发布于</span>
-      <span>2022-02-11</span>
+      <span>2022-10-05</span>
       <span class="post-meta-divider pc-show">|</span>
     </span>
     
@@ -441,8 +244,14 @@
       <span class="pc-show">分类于</span>
       
       
-      <a href="https://cjhdwdsj.github.io/tag/misINJURjO/">
-        <span>视频</span>
+      <a href="https://cjhdwdsj.github.io/tag/NwOANJaeu/">
+        <span>随笔</span>
+      </a>、
+      
+      
+      
+      <a href="https://cjhdwdsj.github.io/tag/r6Rw2nVnB/">
+        <span>学习</span>
       </a>
       
       
@@ -451,17 +260,17 @@
     
     <span class="meta-item">
       <i class="fa fa-clock-o"></i>
-      <span>6分钟</span>
+      <span>1分钟</span>
     </span>
     <span class="meta-item">
       <span class="post-meta-divider">|</span>
       <i class="fa fa-file-word-o"></i>
-      <span>1082<span class="pc-show">字数</span></span>
+      <span>87<span class="pc-show">字数</span></span>
     </span>
     
     
     
-    <span id="/post/Cassini/" data-flag-title="再见卡西尼号 你好土星" class="meta-item pc-show leancloud_visitors">
+    <span id="/post/pairhaha/" data-flag-title="C++的局限性（划掉）" class="meta-item pc-show leancloud_visitors">
       <span class="post-meta-divider">|</span>
       <i class="fa fa-eye"></i>
       <span>浏览量：<span class="leancloud-visitors-count"></span></span>
@@ -470,235 +279,26 @@
   </div>
 </header>
             <div class="post-body next-md-body" id="post_body">
-              <h1 id="cassini">Cassini</h1>
-<p><a href="https://www.bilibili.com/bangumi/play/ss27121" title="卡西尼号">链接</a></p>
+              <p>so...<br>
+算法导论的最小生成树和自己写的不是一个玩意啊</p>
 <!-- more -->
+<p>Kruskal：</p>
 <ul>
-<li>introduce
-<ul>
-<li>A billion miles form earth</li>
-<li>13 years orbiting(around) Saturn(TU X ING)</li>
-<li>Friday the 15TH of September</li>
-<li>size:a bus</li>
-<li>with 12 delicate instruments</li>
-<li>7 years way Saturn</li>
-<li>Earth - Venus - Venus again - Earth again - Jupiter - Saturn</li>
+<li>算法导论：<code>Find-set(A)!=Find-set(B)</code> <s>简洁美观</s>😆</li>
+<li>real：并查集😅</li>
 </ul>
-</li>
-<li>worker
+<p>Prim：</p>
 <ul>
-<li>Carolyn -- the camera system</li>
-<li>Julie Webster -- control far away</li>
-</ul>
-</li>
-<li>Saturn
-<ul>
-<li>ring - ice debris - so magnificently regular and beautiful</li>
-<li>Carl Murray -- rings and moons</li>
-</ul>
-</li>
-<li>62 moons
-<ul>
-<li>Iapetus(moon 8)
-<ul>
-<li>two toned(side) moon
-<ul>
-<li>half as dark as dark get</li>
-<li>the other half is bright as snow</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Hyperion(moon 7)
-<ul>
-<li>like a sponge(Ha i M i a n)</li>
-</ul>
-</li>
-<li>Mimas(moon 1)
-<ul>
-<li>Death Star moon</li>
-</ul>
-</li>
-<li>Titan(moon 6)
-<ul>
-<li>far:an orange,foggy blob(X i n g Q i u)</li>
-<li>But it appears through the fog and an astonishing world is revealed,a world that surprised everyone.</li>
-<li>&quot;Release the probe&quot;</li>
-<li>Huygens -- a descent module
-<ul>
-<li>pebbles on the ground,round rocks</li>
-<li>channels carved through the hills</li>
-<li>surface</li>
-<li>enormous dune fields,100 m high,go on hundreds of kilometer
-<ul>
-<li>doesn't blow in the prevailing wind</li>
-<li>the dunes seems to be resistant to all but very strongest of storms</li>
-<li>the sand comes from Titan's exotic atmosphere,it may can easily build up a charge of static electricity which makes it sticky</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>went by Titan over 125 times</li>
-<li>uses the mock-up to anticipate every eventuality - already run 10000 simulations</li>
-<li>Kraken Mare(liquid methane)
-<ul>
-<li>so cold</li>
-<li>sky would be kind of a deep orange</li>
-<li>the first alien sea ever discovered</li>
-<li>5 year after ... Cassini's instruments spotted something shining through the haze</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Enceladus(moon 2)
-<ul>
-<li>a little pimple in the magnetic data</li>
-<li>water group ions may exist</li>
-<li>find fractures which Nicknamed is the tiger stripes
-<ul>
-<li>radiating heat</li>
-<li>spewing water vapour and ice particles</li>
-</ul>
-</li>
-<li>the three ingredients essential for the emergence of life is include - could harbour life</li>
-<li>it may tell us that life is everywhere</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>close to &quot;death&quot;
-<ul>
-<li>don't want it crash on the surface of Enceladus(moon 2)</li>
-<li>Grand Finale</li>
-<li>use the last drops of fuel close to Saturn</li>
-<li>THE BEGINNING OF THE END</li>
-<li>nerves and exciting</li>
-<li>send the spacecraft exploring closer to Saturn</li>
-<li>dive between the rings and the planet and plunge into Saturn's atmosphere</li>
-<li>It goes from 200 to 2000 degrees in just a matter of seconds</li>
-<li>And...then everything will start to melt and disintegrate</li>
-<li>And then it'll go away</li>
-<li>It just will lose the signal and that'll be end of mission</li>
-<li>Cassini's going to be getting and transmitting data to its last breath</li>
-<li>upset</li>
-<li>4:55 and 46 seconds,on Friday the 15TH of September,the signal disappeared.</li>
-<li>Our friend...Cassini.</li>
-</ul>
-</li>
-</ul>
-<h4 id="中文翻译gelugelu-translate"><sub>中文翻译</sub>(gelugelu translate)</h4>
-<ul>
-<li>介绍
-<ul>
-<li>十亿英里形成地球</li>
-<li>13 年绕（环绕）土星（TU X ING）</li>
-<li>9 月 15 日星期五</li>
-<li>大小：一辆公共汽车</li>
-<li>带有 12 种精致的乐器</li>
-<li>7 年的方式土星</li>
-<li>地球 - 金星 - 再次金星 - 再次地球 - 木星 - 土星</li>
-</ul>
-</li>
-<li>工人
-<ul>
-<li>Carolyn——摄像系统</li>
-<li>——朱莉·韦伯斯特——远控</li>
-</ul>
-</li>
-<li>土星
-<ul>
-<li>环 - 冰屑 - 非常规则和美丽</li>
-<li>——卡尔·默里——戒指和月亮</li>
-</ul>
-</li>
-<li>62 个卫星
-<ul>
-<li>土卫八（月亮 8）
-<ul>
-<li>两个色调（侧面）的月亮
-<ul>
-<li>黑暗的一半</li>
-<li>另一半像雪一样明亮</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>海波龙（月亮 7）
-<ul>
-<li>像海绵一样（Ha i M i an n）</li>
-</ul>
-</li>
-<li>土卫一（月亮 1）
-<ul>
-<li>死星月亮</li>
-</ul>
-</li>
-<li>泰坦（月亮 6）
-<ul>
-<li>far:an orange,foggy blob(X i n g Q i u)</li>
-<li>但它穿过迷雾出现，一个惊人的世界出现了，一个让所有人都感到惊讶的世界。</li>
-<li>“释放探针”</li>
-<li>惠更斯——下降模块
-<ul>
-<li>地面上的鹅卵石，圆形岩石</li>
-<li>穿过山丘的通道</li>
-<li>表面</li>
-<li>巨大的沙丘，100 m 高，绵延数百公里
-<ul>
-<li>不会在盛行风中吹</li>
-<li>沙丘似乎可以抵抗除最强风暴之外的所有风暴</li>
-<li>沙子来自泰坦奇特的大气层，很容易积聚静电而变得粘稠</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>经过泰坦超过 125 次</li>
-<li>使用模型预测每一种可能性 - 已经运行了 10000 次模拟</li>
-<li>Kraken Mare（液态甲烷）
-<ul>
-<li>好冷</li>
-<li>天空会是一种深橙色</li>
-<li>首次发现的外星海洋</li>
-<li>5 年后... 卡西尼号的仪器在雾霭中发现了一些闪光的东西</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>土卫二（月亮 2）
-<ul>
-<li>磁性数据中的一个小疙瘩</li>
-<li>可能存在水基离子</li>
-<li>找到昵称是老虎条纹的骨折
-<ul>
-<li>散热</li>
-<li>喷出水蒸气和冰粒</li>
-</ul>
-</li>
-<li>生命出现的三个要素包括 - 可以孕育生命</li>
-<li>它可能告诉我们生命无处不在</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>接近“死亡”
-<ul>
-<li>不希望它在土卫二的表面坠毁（月亮 2）</li>
-<li>总决赛</li>
-<li>使用靠近土星的最后一滴燃料</li>
-<li>结局的开始</li>
-<li>紧张刺激</li>
-<li>让宇宙飞船探索更接近土星</li>
-<li>在环和行星之间潜入土星大气层</li>
-<li>只需几秒钟即可从 200 度升至 2000 度</li>
-<li>然后……然后一切都会开始融化和瓦解</li>
-<li>然后它就会消失</li>
-<li>它只会失去信号，这将是任务的结束</li>
-<li>卡西尼号将在最后一口气获取和传输数据</li>
-<li>沮丧的</li>
-<li>9 月 15 日星期五 4 点 55 分 46 秒，信号消失。</li>
-<li>我们的朋友……卡西尼。</li>
-</ul>
-</li>
+<li>算法导论：<code>关于P.key属性的优先队列</code>😄<br>
+<img src="https://cjhdwdsj.github.io/post-images/1664979311291.png" alt="原来" loading="lazy"><br>
+TO<br>
+<img src="https://cjhdwdsj.github.io/post-images/1664979384403.png" alt="算法导论" loading="lazy"></li>
+<li>real<br>
+我的优先队列<br>
+<img src="https://cjhdwdsj.github.io/post-images/1664979428942.png" alt="我的" loading="lazy"><br>
+Two hours later...<br>
+居然...pair可以被优先队列<br>
+我不知道，想了很久🤣</li>
 </ul>
 
             </div>
@@ -710,7 +310,7 @@
     </li>
     <li class="post-copyright-link">
       <strong>本文链接：</strong>
-      <a href="https://cjhdwdsj.github.io/post/Cassini/" title="再见卡西尼号 你好土星">https://cjhdwdsj.github.io/post/Cassini/</a>
+      <a href="https://cjhdwdsj.github.io/post/pairhaha/" title="C++的局限性（划掉）">https://cjhdwdsj.github.io/post/pairhaha/</a>
     </li>
     <li class="post-copyright-license">
       <strong>版权声明： </strong>
@@ -719,21 +319,23 @@
   </ul>
   <div class="tags">
     
-      <a href="https://cjhdwdsj.github.io/tag/misINJURjO/"># 视频</a>
+      <a href="https://cjhdwdsj.github.io/tag/NwOANJaeu/"># 随笔</a>
+    
+      <a href="https://cjhdwdsj.github.io/tag/r6Rw2nVnB/"># 学习</a>
     
   </div>
   <div class="nav">
     <div class="nav-prev">
       
         <i class="fa fa-chevron-left"></i>
-        <a class="nav-pc-next" title="LX Music" href="https://cjhdwdsj.github.io/post/LX-Music/">LX Music</a class="nav-pc-next">
-        <a class="nav-mobile-prev" title="LX Music" href="https://cjhdwdsj.github.io/post/LX-Music/">上一篇</a>
+        <a class="nav-pc-next" title="高等代数Hadamard乘积" href="https://cjhdwdsj.github.io/post/d74fX_vLrZ/">高等代数Hadamard乘积</a class="nav-pc-next">
+        <a class="nav-mobile-prev" title="高等代数Hadamard乘积" href="https://cjhdwdsj.github.io/post/d74fX_vLrZ/">上一篇</a>
       
     </div>
     <div class="nav-next">
       
-        <a class="nav-pc-next" title="Hello Gridea" href="https://cjhdwdsj.github.io/post/hello-gridea/">Hello Gridea</a>
-        <a class="nav-mobile-next" title="Hello Gridea" href="https://cjhdwdsj.github.io/post/hello-gridea/">下一篇</a>
+        <a class="nav-pc-next" title="平行和垂直的位置关系区别和联系" href="https://cjhdwdsj.github.io/post/3D-math/">平行和垂直的位置关系区别和联系</a>
+        <a class="nav-mobile-next" title="平行和垂直的位置关系区别和联系" href="https://cjhdwdsj.github.io/post/3D-math/">下一篇</a>
         <i class="fa fa-chevron-right"></i>
       
     </div>
