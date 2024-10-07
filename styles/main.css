@@ -2082,13 +2082,7 @@ body {
         width: 1080px;
         margin: 0 auto;
       }
-    @font-face {
-      font-family: 'HarmonyOS_Sans_SC_Medium';
-      src: url('/media/fonts/HarmonyOS_Sans_SC_Medium.ttf');
-    }
-    * {
-        font-family: 'HarmonyOS_Sans_SC_Medium';
-    }
+    
     .post-body {
       font-size: 17px !important
     }
